@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BIMART</string>
+    <string name="logo">logo</string>
+    <string name="title">title</string>
+    <string name="border_batik">Border Batik</string>
+    <string name="bottom_navigation">Bottom Navigation</string>
+</resources>
