@@ -5,5 +5,182 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".RegisterActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/title">
+
+                <ImageView
+                    android:id="@+id/title2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/border_batik"
+                    android:scaleType="fitCenter"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/list_borrder_1"
+                    app:layout_constraintTop_toTopOf="parent" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:src="@drawable/logo"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_marginTop="10dp"
+                    android:contentDescription="@string/atau" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:src="@drawable/daftar"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_marginTop="20dp"
+                    android:contentDescription="@string/logo" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="30dp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/nama"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="30dp"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/masukkan_nama_lengkap"
+                    android:textColor="@color/white"
+                    android:textColorHint="#B6B6B6"
+                    android:inputType="text"
+                    android:padding="16dp"
+                    android:background="@drawable/bg_btn_white"
+                    android:autofillHints="" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="30dp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/username"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="30dp"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/masukkan_username_baru"
+                    android:textColor="@color/white"
+                    android:textColorHint="#B6B6B6"
+                    android:inputType="text"
+                    android:padding="16dp"
+                    android:background="@drawable/bg_btn_white"
+                    android:autofillHints="" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="30dp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/email"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="30dp"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/masukkan_email"
+                    android:textColor="@color/white"
+                    android:textColorHint="#B6B6B6"
+                    android:inputType="text"
+                    android:padding="16dp"
+                    android:background="@drawable/bg_btn_white"
+                    android:autofillHints="" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="30dp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/password"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="30dp"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/buat_password_baru"
+                    android:textColor="@color/white"
+                    android:textColorHint="#B6B6B6"
+                    android:inputType="textPassword"
+                    android:padding="16dp"
+                    android:background="@drawable/bg_btn_white"
+                    android:autofillHints="" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="30dp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/konfirmasi_password"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="30dp"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/masukkan_password_baru"
+                    android:textColor="@color/white"
+                    android:textColorHint="#B6B6B6"
+                    android:inputType="textPassword"
+                    android:padding="16dp"
+                    android:background="@drawable/bg_btn_white"
+                    android:autofillHints="" />
+                <Button
+                    android:id="@+id/btn_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="30dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/bg_brown"
+                    android:text="@string/buat_akun"/>
+
+                <ImageView
+                    android:id="@+id/title3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/border_batik"
+                    android:scaleType="fitCenter"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="80dp"
+                    android:src="@drawable/list_borrder_1"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </LinearLayout>
+        </FrameLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
