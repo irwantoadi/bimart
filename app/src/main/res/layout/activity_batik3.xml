@@ -40,9 +40,64 @@
                     android:adjustViewBounds="true"
                     android:contentDescription="@string/border_batik"
                     android:scaleType="fitCenter"
-                    android:layout_marginBottom="80dp"
+                    android:layout_marginBottom="20dp"
                     android:src="@drawable/list_borrder_1"
                     app:layout_constraintTop_toTopOf="parent" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/border_batik"
+                    android:scaleType="fitCenter"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/motif_manggaran"
+                    app:layout_constraintTop_toTopOf="parent" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/border_batik"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/filosofi_manggaran"
+                    app:layout_constraintTop_toTopOf="parent" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_marginBottom="80dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btn_back"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.6"
+                        android:background="#000000FF"
+                        android:padding="-10dp"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/back2"/>
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.3"
+                        android:background="#000000FF"
+                        android:padding="-10dp"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"/>
+
+                    <ImageButton
+                        android:id="@+id/btn_next"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.6"
+                        android:background="#000000FF"
+                        android:padding="-10dp"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/nextt" />
+                </LinearLayout>
             </LinearLayout>
         </FrameLayout>
     </ScrollView>
@@ -52,7 +107,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:scaleType="fitCenter"
-        android:src="@drawable/nav_bottom_beranda"
+        android:src="@drawable/nav_bottom_all"
         android:adjustViewBounds="true"
         app:layout_constraintBottom_toBottomOf="parent"
         android:contentDescription="@string/bottom_navigation" />

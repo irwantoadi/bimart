@@ -44,9 +44,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1.0"
+                        android:textColor="@color/black"
                         android:text="@string/halo_langgir_nselamat_datang_di_bimart"
                         android:textStyle="bold"
-                        android:textSize="20sp"/>
+                        android:textSize="16sp"/>
                     <ImageButton
                         android:id="@+id/back"
                         android:layout_width="70dp"
@@ -123,7 +124,7 @@
                     android:orientation="horizontal">
 
                     <ImageButton
-                        android:id="@+id/btn_menu_7"
+                        android:id="@+id/btn_menu_5"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="0.5"
@@ -134,7 +135,7 @@
                         android:src="@drawable/icon_motif" />
 
                     <ImageButton
-                        android:id="@+id/btn_menu_8"
+                        android:id="@+id/btn_menu_6"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="0.5"
