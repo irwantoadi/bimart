@@ -4,7 +4,7 @@
     <string name="title">title</string>
     <string name="border_batik">Border Batik</string>
     <string name="bottom_navigation">Bottom Navigation</string>
-    <string name="halo_langgir_nselamat_datang_di_bimart">Halo Langgir, \nSelamat Datang di <font color="brown">BIMART!</font></string>
+    <string name="halo_langgir_nselamat_datang_di_bimart"><font color="black">Halo Langgir, \nSelamat Datang di</font> <font color="brown">BIMART!</font></string>
     <string name="program_pemberdayaan_berbasis_pals">PROGRAM PEMBERDAYAAN BERBASIS PALS</string>
     <string name="masukkan_username">Masukkan Username</string>
     <string name="masukkan_password">Masukkan Password</string>

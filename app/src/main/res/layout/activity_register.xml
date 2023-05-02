@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".RegisterActivity">
     <ScrollView
         android:layout_width="match_parent"
@@ -52,6 +53,7 @@
                     android:layout_marginHorizontal="30dp"
                     android:textStyle="bold"
                     android:textSize="16sp"
+                    android:textColor="@color/black"
                     android:layout_marginTop="20dp"
                     android:text="@string/nama"/>
                 <EditText
@@ -62,7 +64,7 @@
                     android:layout_marginRight="30dp"
                     android:drawablePadding="10dp"
                     android:hint="@string/masukkan_nama_lengkap"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textColorHint="#B6B6B6"
                     android:inputType="text"
                     android:padding="16dp"
@@ -74,6 +76,7 @@
                     android:layout_marginHorizontal="30dp"
                     android:textStyle="bold"
                     android:textSize="16sp"
+                    android:textColor="@color/black"
                     android:layout_marginTop="20dp"
                     android:text="@string/username"/>
                 <EditText
@@ -84,7 +87,7 @@
                     android:layout_marginRight="30dp"
                     android:drawablePadding="10dp"
                     android:hint="@string/masukkan_username_baru"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textColorHint="#B6B6B6"
                     android:inputType="text"
                     android:padding="16dp"
@@ -97,6 +100,7 @@
                     android:layout_marginHorizontal="30dp"
                     android:textStyle="bold"
                     android:textSize="16sp"
+                    android:textColor="@color/black"
                     android:layout_marginTop="20dp"
                     android:text="@string/email"/>
                 <EditText
@@ -107,7 +111,7 @@
                     android:layout_marginRight="30dp"
                     android:drawablePadding="10dp"
                     android:hint="@string/masukkan_email"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textColorHint="#B6B6B6"
                     android:inputType="text"
                     android:padding="16dp"
@@ -119,6 +123,7 @@
                     android:layout_marginHorizontal="30dp"
                     android:textStyle="bold"
                     android:textSize="16sp"
+                    android:textColor="@color/black"
                     android:layout_marginTop="20dp"
                     android:text="@string/password"/>
                 <EditText
@@ -129,7 +134,7 @@
                     android:layout_marginRight="30dp"
                     android:drawablePadding="10dp"
                     android:hint="@string/buat_password_baru"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textColorHint="#B6B6B6"
                     android:inputType="textPassword"
                     android:padding="16dp"
@@ -141,6 +146,7 @@
                     android:layout_marginHorizontal="30dp"
                     android:textStyle="bold"
                     android:textSize="16sp"
+                    android:textColor="@color/black"
                     android:layout_marginTop="20dp"
                     android:text="@string/konfirmasi_password"/>
                 <EditText
@@ -151,7 +157,7 @@
                     android:layout_marginRight="30dp"
                     android:drawablePadding="10dp"
                     android:hint="@string/masukkan_password_baru"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textColorHint="#B6B6B6"
                     android:inputType="textPassword"
                     android:padding="16dp"
